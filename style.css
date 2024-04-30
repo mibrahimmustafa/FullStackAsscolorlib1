@@ -1,0 +1,103 @@
+#fixed-header{
+background-color: #333333;
+color: white;
+border: 25px solid  #333333 ;
+margin-top: 0;
+position: fixed;
+max-height: 40px;
+top:0px;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.Colorlib{
+    position: relative;
+    margin: 9px;
+    border: 100px;
+    padding: 100px, 60px;
+    bottom: 12px;
+}
+.easylo{
+    content: '+';
+    /* left: 20px; */
+    bottom: 37px;
+    position: relative;
+    background-color: #222222;
+    padding: 100px, 70px;
+    margin:0; 
+    font-size: 20px;
+    border: 33px solid #222222;
+}
+.cart-shopping{
+    background-color: greenyellow;
+}
+#fixed-header ul{
+    display: inline-block;
+    position: absolute;
+    width: 708%;
+    height: 75px;
+    /* background-color: red; */
+    text-align: end;
+    margin: 0;
+    padding: 0;
+    top:0;
+    bottom: 0px;
+    right: 70px;
+}
+
+#fixed-header ul li{
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    /* height: 60px; */
+    border-left: 2px solid #444;
+    border-right: 2px ;
+    padding: 7px;
+    margin-right: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+    /* right: 10px; */
+    font-size: 35px;
+    text-decoration: none;
+     bottom: 10px;  
+     /* background-color: #000; */
+}
+#fixed-header ul li:hover{
+    background-color:#222222;
+}
+nav{
+    background-color: #25BE9F;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-height: 110px;
+    position: fixed;
+
+    top:90px;
+}
+nav h1{
+    display: inline-block;
+    
+
+}
+nav ul{
+    text-transform: capitalize;
+    display: inline-block;
+    width: 85%;
+    /* background-color: #222222; */
+    text-align: end;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 12px;
+    font-size: 30px;
+    color: white;
+    
+}
+nav button{
+    background-color: #11C98F;
+    border: 2px solid #11C98F;
+    padding: 20px;
+    width: 150px;
+}
