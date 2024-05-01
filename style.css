@@ -9,6 +9,7 @@ top:0px;
 width: 100%;
 margin: 0;
 padding: 0;
+z-index: 2;
 }
 .Colorlib{
     position: relative;
@@ -16,6 +17,12 @@ padding: 0;
     border: 100px;
     padding: 100px, 60px;
     bottom: 12px;
+    
+}
+nav h1{
+    position: relative;
+    margin-left: 20px;
+    left: 20px;
 }
 .easylo{
     content: '+';
@@ -27,6 +34,7 @@ padding: 0;
     margin:0; 
     font-size: 20px;
     border: 33px solid #222222;
+    
 }
 .cart-shopping{
     background-color: greenyellow;
@@ -43,6 +51,7 @@ padding: 0;
     top:0;
     bottom: 0px;
     right: 70px;
+   
 }
 
 #fixed-header ul li{
@@ -66,32 +75,33 @@ padding: 0;
     background-color:#222222;
 }
 nav{
-    background-color: #25BE9F;
+    background-color: #3a9187;
     width: 100%;
     margin: 0;
     padding: 0;
-    max-height: 110px;
-    position: fixed;
-
+    max-height: 100px;  
+    position: sticky;
+    z-index: 2;
     top:90px;
+    right:5%;
+    left:10%;
 }
 nav h1{
     display: inline-block;
-    
+
 
 }
 nav ul{
     text-transform: capitalize;
     display: inline-block;
-    width: 85%;
+    width: 60%;
     /* background-color: #222222; */
     text-align: end;
-    
 }
 nav ul li{
     display: inline-block;
-    margin: 12px;
-    font-size: 30px;
+    margin: 9px;
+    font-size: 20px;
     color: white;
     
 }
@@ -100,4 +110,185 @@ nav button{
     border: 2px solid #11C98F;
     padding: 20px;
     width: 150px;
+    /* margin: ; */
+}
+
+.bg-img{
+    width: 100%;
+    display: block;
+    height: 683px;
+}
+
+.h1-begining{
+    display: inline-block;
+    position: relative;
+    bottom: 443px;
+    width: 200px;
+    margin-left: 100px;
+    color: white;
+
+
+}
+.p1-begining{
+
+    display: inline-block;
+    position: relative;
+    /* bottom: 328px; */
+    width: 200px;
+    margin-right: 50px;
+    right: 289px;
+    top: -327px;
+    font-size: large;
+    color: white;
+}
+.hr-begining{
+    display: inline-block;
+    position: relative;
+    bottom: 418px;
+    right: 205px;
+    width: 79px;
+    font-size: 50px;
+    size: 84px;
+    color: white;
+}
+
+.header-left{
+    position: relative;
+    /* left: 10%; */
+    margin-left: 10%;
+    bottom: 25px;
+    /* z-index: 0; */
+}
+
+.btn-begining{
+    display: inline-block;
+    position: relative;
+    /* bottom: 328px; */
+    width: 125px;
+    /* margin-right: 29px; */
+    right: 544px;
+    top: -262px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+    height: 46px;
+}
+
+
+.form-want {
+    display: inline-block;
+    position: absolute;
+    bottom: 529px;
+    background-color: white;
+    margin: 0px;
+    height: 545px;
+    width: 350px;
+    border-radius: 2%;
+    right: 20%;
+    
+}
+
+.form-want h2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px    ;
+}
+
+.form-want h2~p {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 62px;
+    bottom: 27px;
+
+}
+.form-want>span{ 
+    display:inline-block;
+    position: relative;
+    width:150px;
+    word-wrap:break-word;
+    color: #66C2B7;
+    font-size: 70px;
+    bottom: 95px;
+    margin-left: 105px;
+}
+.form-want p~label {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 33px;
+    bottom: 93px;
+    margin-top: 21px;
+    margin-bottom: 7px;
+
+}
+
+
+.form-want label~select {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 31px;
+    bottom: 93px;
+    width: 262px;
+    height: 40px;
+
+}
+
+.dolar-sign{ 
+    display:inline-block;
+    position: relative;
+    word-wrap:break-word;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.form-want button{
+    position: relative;
+    width: 250px;
+    font-weight: bold;
+    color: white;
+    background-color: #11C98F;
+    height: 40px;
+    bottom: 72px;
+    margin-left: 40px;
+}
+.form-want button ~ p{
+    position: relative;
+    bottom: 68px;
+    text-align: center;
+}
+
+.solution h2 {
+    margin: 0;
+    padding: 0px;
+    display: block;
+    position: relative;
+    text-align: center;
+    bottom: 105px;
+}
+
+.solution~span{
+    display: block;
+    margin: 0;
+    position: relative;
+    width: 150px;
+    word-wrap: break-word;
+    color: #66C2B7;
+    font-size: 70px;
+    bottom: 95px;
+    left: 46%;
+    bottom: 162px;
+}
+.brochure{
+    position: relative;
+    left: 34%;
+    bottom: 162px;
+    width: 351px;
+    font-size: 12px;
+    text-align: center;
 }
